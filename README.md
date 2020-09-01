@@ -7,7 +7,7 @@ The main idea of this repo is to showcase a low-level example on how a "large-ap
 
 ### Concept
 
-A single application with multiple "smaller" applications inside which should not always be loaded / included in the final bundle size think of something like that: 
+A single application with multiple "smaller" applications inside which should not always be loaded / included in the initial loading size think of something like that: 
 
 ```
 Application 
@@ -28,6 +28,10 @@ This small prototype uses the internal react future `React.lazy` and the out-of-
 ## Testing
 
 Simply fire up the application and inspect the network tab and see which parts of the application are only loaded when visiting any routes.
+
+![Example](./docs/Screen-1.png)
+![Example](./docs/Screen-2.png)
+![Example](./docs/Screen-3.png)
 
 ## Follow-Up
 
